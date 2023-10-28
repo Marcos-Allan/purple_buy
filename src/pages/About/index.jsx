@@ -21,6 +21,7 @@ export default function About(){
                     fontSize: '3em',
                     textAlign: 'center',
                     padding: '20px 0px',
+                    color: 'quintanary.main',
                 }}
                 variant='h1'
             >
