@@ -19,6 +19,7 @@ export default function Home(){
                 sx={{
                     width: '100%',
                     textAlign: 'center',
+                    color: 'quintanary.main'
                 }}
                 variant='h2'
             >
