@@ -65,7 +65,7 @@ export default function Card() {
                 {selected == true ? (
                     <FavoriteIcon color='terciary' />
                 ) : (
-                    <FavoriteBorderIcon />
+                    <FavoriteBorderIcon color='quintanary' />
                 )}
             </Box>
             <Button
