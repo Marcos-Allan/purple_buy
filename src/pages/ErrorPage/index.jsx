@@ -26,7 +26,7 @@ export default function ErrorPage(){
                     marginBottom: '30px',
                 }}
                 >Erro 404!<br></br> Página não encontrada</Typography>
-            <Link to="/">
+            <Link to="/purple_buy">
                 <Button
                     sx={{
                         padding: '16px 60px',

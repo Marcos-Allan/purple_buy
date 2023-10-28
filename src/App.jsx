@@ -13,7 +13,7 @@ import { LightTheme } from './assets/theme/Light.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/purple_buy",
     element: <Home />,
     errorElement: <ErrorPage />
   },

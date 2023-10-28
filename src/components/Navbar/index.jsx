@@ -34,7 +34,7 @@ export default function Navbar({ activo }) {
           position: 'relative'
       }}
     >
-      <Link to="/">
+      <Link to="/purple_buy">
         <Typography
           sx={{
             textAlign: 'center',
@@ -101,7 +101,7 @@ export default function Navbar({ activo }) {
           }}
         >
           {activo == 'home' ? (
-            <Link to="/">
+            <Link to="/purple_buy">
               <Typography
                 sx={{ 
                   width: {
