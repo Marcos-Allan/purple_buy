@@ -67,7 +67,7 @@ export default function Footer(){
                 variant='subtitle1'
                 >
                 Entre em contato com Outras
-                <Link to="/contact">
+                <Link to="/purple_buy/contact">
                     <Typography
                         sx={{
                             fontSize: '14px',

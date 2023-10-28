@@ -167,7 +167,7 @@ export default function Navbar({ activo }) {
             </Link>
           ) : (
 
-            <Link to="/">
+            <Link to="/purple_buy">
               <Typography
                 sx={{
                   textAlign: 'center',
@@ -206,7 +206,7 @@ export default function Navbar({ activo }) {
             </Link>
             )}
           {activo == 'about' ? (
-            <Link to="/about">
+            <Link to="/purple_buy/about">
               <Typography
                 sx={{ 
                   width: {
@@ -272,7 +272,7 @@ export default function Navbar({ activo }) {
             </Typography>
             </Link>
           ) : (
-            <Link to="/about">
+            <Link to="/purple_buy/about">
               <Typography
                 sx={{
                   textAlign: 'center',
@@ -313,7 +313,7 @@ export default function Navbar({ activo }) {
           )}
 
           {activo == 'products' ? (
-            <Link to="/products">
+            <Link to="/purple_buy/products">
               <Typography
               sx={{ 
                 width: {
@@ -379,7 +379,7 @@ export default function Navbar({ activo }) {
             </Typography>
             </Link>
           ) : (
-            <Link to="/products">
+            <Link to="/purple_buy/products">
               <Typography
               sx={{
                 textAlign: 'center',
@@ -419,7 +419,7 @@ export default function Navbar({ activo }) {
           )}
 
           {activo == 'contact' ? (
-              <Link to="/contact">
+              <Link to="/purple_buy/contact">
               <Typography
                 sx={{ 
                   width: {
@@ -485,7 +485,7 @@ export default function Navbar({ activo }) {
             </Typography>
             </Link>
           ) : (
-            <Link to="/contact">
+            <Link to="/purple_buy/contact">
               <Typography 
               sx={{
                 textAlign: 'center',
