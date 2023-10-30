@@ -3,7 +3,6 @@ import { Box, Typography } from '@mui/material'
 import Navbar from "../../components/Navbar"
 import Footer from '../../components/Footer'
 import Card from '../../components/Card'
-import CardContact from '../../components/CardContact'
 
 export default function Home(){
     return(
