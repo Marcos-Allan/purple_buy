@@ -85,6 +85,37 @@ export default function Footer(){
                         Formas de Contato
                     </Typography>
                 </Link>
+                
+            </Typography>
+            <Typography
+                sx={{
+                    fontSize: '14px',
+                    width: '100%',
+                    margin: '30px 0px',
+                    textAlign: 'center',
+                    color: 'quintanary.main',
+                }}
+                variant='subtitle1'
+            >
+                Acesse a página de
+                <Link to="/purple_buy/error">
+                    <Typography
+                        sx={{
+                            fontSize: '14px',
+                            display: 'inline-block',
+                            color: 'quaternary.main',
+                            bgcolor: 'secondary.main',
+                            padding: '6px',
+                            margin: '6px',
+                            textDecoration: 'none',
+                            '&:hover':{
+                                color: 'quaternary.main',
+                            }
+                        }}
+                    >   
+                        Erro
+                    </Typography>
+                </Link>
 
             </Typography>
         
