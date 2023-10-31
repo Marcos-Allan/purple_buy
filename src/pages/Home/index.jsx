@@ -7,19 +7,27 @@ import Card from '../../components/Card'
 export default function Home(){
     return(
         <Box sx={{
-                bgcolor: 'background.default',
-                minHeight: '100vh',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-start',
-                justifyContent: 'center',
-                flexWrap: 'wrap',
-            }}>
+            bgcolor: 'background.default',
+            minHeight: '100vh',
+            minWidth: '100vw',
+            display: 'flex',
+            alignItems: 'center',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            flexWrap: 'wrap',
+            overflowX: 'hidden',
+        }}>
             <Navbar activo="home" />
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',
@@ -72,7 +80,13 @@ export default function Home(){
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',
@@ -125,7 +139,13 @@ export default function Home(){
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',

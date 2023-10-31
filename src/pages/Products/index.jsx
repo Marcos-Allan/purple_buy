@@ -21,7 +21,13 @@ export default function Products(){
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',
@@ -74,7 +80,13 @@ export default function Products(){
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',
@@ -127,7 +139,13 @@ export default function Products(){
             <Typography
                 sx={{
                     width: '90%',
-                    textAlign: 'left',
+                    textAlign: {
+                        xs: 'left',
+                        sm: 'left',
+                        md: 'center',
+                        lg: 'center',
+                        xl: 'center',
+                    },
                     marginLeft: '20px',
                     fontSize: '2em',
                     color: 'primary.main',
