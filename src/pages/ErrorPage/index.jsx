@@ -24,6 +24,7 @@ export default function ErrorPage(){
                     textAlign: 'center',
                     lineHeight: '1.4em',
                     marginBottom: '30px',
+                    color: 'quintanary.main',
                 }}
                 >Erro 404!<br></br> Página não encontrada</Typography>
             <Link to="/purple_buy">
